@@ -27,6 +27,19 @@
   width: 8rem;
 }
 
+/* Hide left navigation sidebar; let content fill the space */
+.md-sidebar--primary {
+  display: none;
+}
+.md-main .md-main__inner {
+  justify-content: center;
+}
+
+/* Hide right TOC sidebar when no H2+ subheadings exist */
+.md-sidebar--secondary:not(:has(.md-nav--secondary .md-nav__list .md-nav__item)) {
+  display: none;
+}
+
 /* Make the header logo a bit bigger so the sticker is recognisable */
 .md-header__button.md-logo {
   margin: .2rem;
