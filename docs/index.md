@@ -60,6 +60,7 @@ The aim of this week is to bridge those gaps: to agree on shared data convention
 
 ## Links
 
-- GitHub organisation: <https://github.com/LC-radio-workshop>
-- Source for this site: <https://github.com/LC-radio-workshop/LC-radio-workshop.github.io>
-- Lorentz Center: <https://www.lorentzcenter.nl/>
+- [GitHub organisation](https://github.com/LC-radio-workshop)
+- [Source for this site](https://github.com/LC-radio-workshop/LC-radio-workshop.github.io)
+- [Lorentz Center](https://www.lorentzcenter.nl/)
+- [Meeting @ Lorentz Center](https://www.lorentzcenter.nl/bridging-gaps-in-heliospheric-radio-data-analyses.html)
