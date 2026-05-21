@@ -26,6 +26,11 @@ function enhanceInstrumentsTable() {
     });
   }
 
+  // Blank out NaN values produced by pandas/openpyxl for empty cells.
+  table.querySelectorAll("td").forEach(cell => {
+    if (cell.textContent.trim().toLowerCase() === "nan") cell.textContent = "";
+  });
+
   // Auto-linkify URLs in cells.
   const urlRe = /(https?:\/\/[^\s<>"')]+)/g;
   const allRows = table.querySelectorAll("tr");
