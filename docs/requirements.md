@@ -156,13 +156,17 @@ This section captures what the in-memory container, the on-disk file format, and
 * Mask aware: consistent NaN and explicit mask handling across operations.
 * Metadata as a first class attribute, accessible through a consistent interface.
 
-### 4.2 Construction
+### 4.2 File format
+
+Data should be distributed in **FITS** or **CDF**. CDF files should follow the [ISTP/IACG metadata conventions](https://spdf.gsfc.nasa.gov/sp_use_of_cdf.html) so they are interoperable with existing heliophysics tools (CDAWeb, pyspedas, autoplot, sunpy). Both formats should carry the metadata listed in section 2 in a way that round trips losslessly through the container.
+
+### 4.3 Construction
 
 * A single entry point that takes a file and returns a populated container, dispatching on file format (FITS, CDF, HDF5, DAT, and binary formats).
 * Construction from arrays (data, time axis, frequency axis, metadata) for programmatic use and testing.
 * Construction from a URL where streaming is preferable to permanent download.
 
-### 4.3 Core operations
+### 4.4 Core operations
 
 The container should support the following as native methods that preserve the container type:
 
@@ -172,26 +176,26 @@ The container should support the following as native methods that preserve the c
 * Quantity aware arithmetic (supporting background subtraction via standard operators)
 * Mask handling (setting, modifying, interpolating)
 * Reprojection or resampling onto a target grid (essential for multi instrument work)
-* Round trip input and output to a standard format (FITS or HDF5) preserving metadata losslessly
+* Round trip input and output to FITS or CDF preserving metadata losslessly
 
-### 4.4 Heterogeneous and multi resolution data
+### 4.5 Heterogeneous and multi resolution data
 
 * Accommodate datasets where the same source produces multiple resolutions in the same file (for example certain WIND data products), most likely via a sequence of containers rather than a single combined array.
 * Behaviour when combining containers with mismatched time or frequency grids must be defined and documented.
 * Regridding onto a common grid should not be forced unless the user explicitly requests it.
 
-### 4.5 Search and retrieval
+### 4.6 Search and retrieval
 
 * Discoverable through a unified search interface (for example Fido style) for instruments whose archives support this.
 * For instruments without such support, the manual or scripted retrieval path should be documented.
 * The path from "I want data for this event" to "loaded container" should be one or two lines of code wherever archive support exists.
 
-### 4.6 Integration
+### 4.7 Integration
 
 * Interoperable with the broader scientific Python ecosystem (Astropy, NumPy, SciPy, xarray where appropriate).
 * Compatible with downstream analysis tools for plotting, fitting, and machine learning workflows.
 
-### 4.7 Documentation and quality
+### 4.8 Documentation and quality
 
 * An example gallery covering the main use cases (identified as a major community need).
 * Per instrument notes documenting quirks, data levels, version differences, and known issues.
