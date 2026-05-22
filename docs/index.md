@@ -4,7 +4,7 @@ Welcome to the documentation site for the Lorentz Center workshop **["Bridging G
 
 This site collects working notes, an instrument catalogue, tooling specifications, and example analyses produced before, during, and after the workshop.
 
-**This site will not be regularly updated into the future, think of this as a historical record of the outputs of the workshop.**
+**This site will not be regularly updated into the future, think of this as a record of the outputs of the workshop, however it can be updated and maintained by the community through the github repo: https://github.com/LC-radio-workshop/LC-radio-workshop.github.io. Please open an issue or a pull request**
 
 ## About the workshop
 
