@@ -6,7 +6,7 @@
 
 ## 1. Purpose and scope
 
-This document captures the requirements for a standardised approach to heliospheric radio dynamic spectra, covering both ground based and space based instruments. It spans three related things: the **metadata** that data files should carry, the **file format** choices for storing that data, and the **in-memory container** (and surrounding software) that loads it. It is the result of discussions among workshop participants and reflects a shared understanding of what is needed to enable consistent, multi instrument analysis.
+This document captures the requirements for a standardised approach to heliospheric radio dynamic spectra, covering both ground based and space based instruments. It spans three related things: the metadata that data files should carry, the file format choices for storing that data, and the in-memory container (and surrounding software) that loads it. It is the result of discussions among workshop participants and reflects a shared understanding of what is needed to enable consistent, multi instrument analysis.
 
 The document is organised into three sections:
 
@@ -200,7 +200,6 @@ The container should support the following as native methods that preserve the c
 ---
 
 ## 5. A note on layering
-
 The user wish list mixes container level features (slicing, cropping, plotting, masking) with scientific analysis features (drift fitting, fluence calculation, periodicity detection). When implementing, these should be kept separate:
 
 * **The container** holds the data and metadata and provides the basic operations described in section 4. Its scope is finite and well defined.
