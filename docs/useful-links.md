@@ -8,14 +8,13 @@ A curated list of resources for working with heliospheric radio data. Personal r
 
 The maintained loaders and tools you should reach for first.
 
-* [**radiospectra**](https://github.com/sunpy/radiospectra) — SunPy affiliated package for radio dynamic spectra. Supports search, download, reading and plotting for: e-CALLISTO, EOVSA, I-LOFAR (mode 357 BST), PSP/RFS, Solar Orbiter/RPW, RSTN (Learmonth and others), STEREO/SWAVES, Wind/WAVES, plus custom spectra (minimum required: time, frequency, and data arrays).
-* [**maser-data (maser4py)**](https://maser.readthedocs.io/) — Python package for reading low frequency radio data from many space missions. Returns xarray objects.
-* [**pyspedas**](https://pyspedas.readthedocs.io/) — Multi mission space physics data access. Good for retrieving PSP/RFS, Wind/WAVES, STEREO/WAVES and Solar Orbiter/RPW spectra consistently.
-* [**Speasy**](https://speasy.readthedocs.io/) — Format agnostic data retrieval from AMDA, CDPP, CDAWeb, SSCWeb.
-* [**SciQLop**](https://github.com/SciQLop) — Interactive visualisation environment for space physics time series. GUI based with a Python API.
-* [**sunpy-soar**](https://docs.sunpy.org/projects/soar/) — Solar Orbiter Archive client for SunPy Fido.
-* [**SolarViewer**](https://pypi.org/project/solarviewer/) — Visualisation and download tool for Learmonth, RSTN, e-CALLISTO and related solar data.
-* [**Autoplot**](https://autoplot.org/) — Standalone radio data visualisation tool (Java based, but reads CDF and other space physics formats).
+* [**radiospectra**](https://github.com/sunpy/radiospectra). SunPy affiliated package for radio dynamic spectra. Supports search, download, reading and plotting for: e-CALLISTO, EOVSA, I-LOFAR (mode 357 BST), PSP/RFS, Solar Orbiter/RPW, RSTN (Learmonth and others), STEREO/SWAVES, Wind/WAVES, plus custom spectra (minimum required: time, frequency, and data arrays).
+* [**maser-data (maser4py)**](https://maser.readthedocs.io/). Python package for reading low frequency radio data from many space missions. Returns xarray objects.
+* [**pyspedas**](https://pyspedas.readthedocs.io/). Multi mission space physics data access. Good for retrieving PSP/RFS, Wind/WAVES, STEREO/WAVES and Solar Orbiter/RPW spectra consistently.
+* [**Speasy**](https://speasy.readthedocs.io/). Format agnostic data retrieval from AMDA, CDPP, CDAWeb, SSCWeb.
+* [**SciQLop**](https://github.com/SciQLop). Interactive visualisation environment for space physics time series. GUI based with a Python API.
+* [**sunpy-soar**](https://docs.sunpy.org/projects/soar/). Solar Orbiter Archive client for SunPy Fido.
+* [**SolarViewer**](https://pypi.org/project/solarviewer/). Visualisation and download tool for Learmonth, RSTN, e-CALLISTO and related solar data.
 
 ---
 
@@ -79,9 +78,9 @@ The maintained loaders and tools you should reach for first.
 
 When you want to see what was happening on a given day before committing to a download.
 
-* [**CROCS**](https://parker.gsfc.nasa.gov/crocs.html) — Combined Radio Observations of CMEs and Shocks. Multi instrument quicklooks for major events.
-* [**e-CALLISTO quicklooks**](https://soleil.i4ds.ch/solarradio/callistoQuicklooks/) — Daily, per station.
-* [**UAH e-CALLISTO dashboard**](https://astrodoncel.uah.es/dashboard/index.php) — Burst reports, statistics, cross matches.
+* [**CROCS**](https://parker.gsfc.nasa.gov/crocs.html). Combined Radio Observations of CMEs and Shocks. Multi instrument quicklooks for major events.
+* [**e-CALLISTO quicklooks**](https://soleil.i4ds.ch/solarradio/callistoQuicklooks/). Daily, per station.
+* [**UAH e-CALLISTO dashboard**](https://astrodoncel.uah.es/dashboard/index.php). Burst reports, statistics, cross matches.
 * [**Solar KSP LOFAR previews**](https://spaceweather.astron.nl/SolarKSP/data/atdb_process/solar_bf_compressing/).
 * [**ORFEE quicklooks**](https://secchirh.obspm.fr/spip.php?article11).
 
@@ -89,12 +88,12 @@ When you want to see what was happening on a given day before committing to a do
 
 ## Community portals and broader resources
 
-* [**CDAWeb**](https://cdaweb.gsfc.nasa.gov/) — NASA Coordinated Data Analysis Web. Central archive for many space physics CDF datasets.
-* [**SPDF**](https://spdf.gsfc.nasa.gov/) — NASA Space Physics Data Facility.
-* [**CDPP**](https://cdpp-archive.cnes.fr/) — French national space plasma data centre.
-* [**IHDEA**](https://ihdea.net/) — International Heliophysics Data Environment Alliance.
-* [**DASH**](https://dash.heliophysics.net/) — Distributed Archive for Solar and Heliospheric data.
-* [**SunPy**](https://sunpy.org/) — Python ecosystem for solar physics.
+* [**CDAWeb**](https://cdaweb.gsfc.nasa.gov/). NASA Coordinated Data Analysis Web. Central archive for many space physics CDF datasets.
+* [**SPDF**](https://spdf.gsfc.nasa.gov/). NASA Space Physics Data Facility.
+* [**CDPP**](https://cdpp-archive.cnes.fr/). French national space plasma data centre.
+* [**IHDEA**](https://ihdea.net/). International Heliophysics Data Environment Alliance.
+* [**DASH**](https://dash.heliophysics.net/). Distributed Archive for Solar and Heliospheric data.
+* [**SunPy**](https://sunpy.org/). Python ecosystem for solar physics.
 
 ---
 
@@ -102,9 +101,9 @@ When you want to see what was happening on a given day before committing to a do
 
 For instrument teams and data providers.
 
-* [**FITS standard**](https://fits.gsfc.nasa.gov/standard40/fits_standard40aa-le.pdf) — The FITS 4.0 specification.
-* [**CDF documentation**](https://spdf.gsfc.nasa.gov/sp_use_of_cdf.html) — Use of CDF in space physics.
-* [**ISTP metadata guidelines**](https://github.com/IHDE-Alliance/ISTP_metadata) — Conventions for CDF metadata in space physics.
+* [**FITS standard**](https://fits.gsfc.nasa.gov/standard40/fits_standard40aa-le.pdf). The FITS 4.0 specification.
+* [**CDF documentation**](https://spdf.gsfc.nasa.gov/sp_use_of_cdf.html). Use of CDF in space physics.
+* [**ISTP metadata guidelines**](https://github.com/IHDE-Alliance/ISTP_metadata). Conventions for CDF metadata in space physics.
 
 ---
 
