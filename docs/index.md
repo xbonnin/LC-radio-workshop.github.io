@@ -34,13 +34,13 @@ The aim of this week is to bridge those gaps: to agree on shared data convention
 
     [:octicons-arrow-right-24: See the survey](existing-tools.md)
 
-- :material-package-variant-closed:{ .lg .middle } **Container Spec**
+- :material-package-variant-closed:{ .lg .middle } **Requirements**
 
     ---
 
-    Working draft of the shared analysis container.
+    Requirements for a shared heliospheric radio dynamic spectra container.
 
-    [:octicons-arrow-right-24: View the spec](container-spec.md)
+    [:octicons-arrow-right-24: View the requirements](requirements.md)
 
 - :material-notebook-outline:{ .lg .middle } **Examples**
 

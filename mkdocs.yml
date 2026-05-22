@@ -75,7 +75,7 @@ nav:
   - Home: index.md
   - Instrument Catalogue: instruments.md
   - Existing Tools: existing-tools.md
-  - Container Spec: container-spec.md
+  - Requirements: requirements.md
   - Examples: examples.md
   - Team: team.md
   - Workshop:
