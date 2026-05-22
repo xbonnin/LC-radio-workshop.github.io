@@ -1,7 +1,6 @@
 # Useful links
 
-A curated list of resources for working with heliospheric radio data. Personal repositories and one off scripts are kept in the workshop's private notes; this page only lists official instrument pages, data archives, maintained packages, and community portals.
-
+A curated list of resources for working with heliospheric radio data. More can be added. 
 ---
 
 ## Python packages
