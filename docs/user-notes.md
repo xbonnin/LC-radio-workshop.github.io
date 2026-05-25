@@ -15,12 +15,12 @@ For most heliospheric radio data, one of these four packages will read what you 
 | [`radiospectra`](https://docs.sunpy.org/projects/radiospectra/) | SunPy affiliated package. Good first choice for solar radio data. Handles e-CALLISTO, SWAVES, RFS (PSP), WAVES (Wind), Learmonth (RSTN) and more. Integrates with Fido for search and download. |
 | [`MASER (maser4py)`](https://maser.readthedocs.io/) | Strong on space mission radio data. Covers Cassini, Juno, Solar Orbiter/RPW, STEREO/WAVES, Wind/WAVES, Nançay instruments. Uses xarray under the hood. |
 | [`pyspedas`](https://pyspedas.readthedocs.io/) | Good for multi spacecraft work. Pulls data from many space missions in one consistent way via CDAWeb. |
-| [`Speasy`](https://speasy.readthedocs.io/) / [`SciQLop`](https://sciqlop.github.io/) | Speasy gives format agnostic retrieval from AMDA, CDPP, CDAWeb, SSCWeb. SciQLop is an interactive viewer built on top. Good when you want to explore visually first. |
+| [`Speasy`](https://speasy.readthedocs.io/) / [`SciQLop`](https://sciqlop.github.io/) | Speasy gives format agnostic retrieval from AMDA, CDAWeb, SSCWeb, CSA, 3DView, HAPI. SciQLop is an interactive viewer built on top. Good when you want to explore visually first. |
 
 A rough rule of thumb:
 
 * Working with solar radio bursts and you already use SunPy → start with `radiospectra`.
-* Working with space mission data and want consistent access across many missions → `pyspedas` or `MASER`.
+* Working with space mission data and want consistent access across many missions → `pyspedas`, `MASER` or `Speasy`.
 * Want to browse before you commit to a script → SciQLop.
 
 You can use more than one. Many people use `radiospectra` for solar ground based data and `pyspedas` or `MASER` for in situ space data.
