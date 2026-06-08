@@ -8,7 +8,7 @@ A curated list of resources for working with heliospheric radio data. More can b
 The maintained loaders and tools you should reach for first.
 
 * [**radiospectra**](https://github.com/sunpy/radiospectra). SunPy affiliated package for radio dynamic spectra. Supports search, download, reading and plotting for: e-CALLISTO, EOVSA, I-LOFAR (mode 357 BST), PSP/RFS, Solar Orbiter/RPW, RSTN (Learmonth and others), STEREO/SWAVES, Wind/WAVES, plus custom spectra (minimum required: time, frequency, and data arrays).
-* [**maser-data (maser4py)**](https://maser.readthedocs.io/). Python package for reading low frequency radio data from many space missions. Returns xarray objects.
+* [**maser-data (maser4py)**](https://pypi.org/project/maser-data/). Python package for reading low frequency radio data from many space missions. Returns xarray objects.
 * [**pyspedas**](https://pyspedas.readthedocs.io/). Multi mission space physics data access. Good for retrieving PSP/RFS, Wind/WAVES, STEREO/WAVES and Solar Orbiter/RPW spectra consistently.
 * [**Speasy**](https://speasy.readthedocs.io/). Format agnostic data retrieval from AMDA, CDPP, CDAWeb, SSCWeb.
 * [**SciQLop**](https://github.com/SciQLop). Interactive visualisation environment for space physics time series. GUI based with a Python API.
@@ -52,8 +52,10 @@ The maintained loaders and tools you should reach for first.
 ## Space based instruments
 
 ### Solar Orbiter / RPW
-* L3 archive (Paris Observatory): [rpw-lira.obspm.fr](https://rpw-lira.obspm.fr/roc/data/pub/solo/rpw/data/)
-* Solar Orbiter Archive: [soar.esac.esa.int](https://soar.esac.esa.int/)
+* Solar Orbiter Archive (ESAC): [soar.esac.esa.int](https://soar.esac.esa.int/)
+* RPW public data server (Paris Observatory): [rpw-lira.obspm.fr](https://rpw-lira.obspm.fr/roc/data/pub/solo/rpw/data/)
+* RPW Web portal (Paris Observatory): [rpw-datacenter.obspm.fr](https://rpw-datacenter.obspm.fr)
+* Tutorials and user-supplied software to read and plot RPW data: [rpw-datacenter.obspm.fr](https://rpw-datacenter.obspm.fr/spip.php?article15)
 
 ### Parker Solar Probe / FIELDS
 * FIELDS data: [fields.ssl.berkeley.edu/data](https://fields.ssl.berkeley.edu/data/)
